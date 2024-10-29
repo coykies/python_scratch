@@ -4,6 +4,6 @@ def main ():
     print("x squared is", square(x))
 #func square 
 def square(n):
-    return n * n
+    return n ** 2
 #output func main
 main()
