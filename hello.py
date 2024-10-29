@@ -1,5 +1,8 @@
-#Ask user for their name
-name = input("What's your name? ").strip().title()
+#definit func hello
+def hello(to):
+    print("hello,", to)
 
-#Say hello to user without extra space and capital letter
-print(f"hello, {name}")
+#Ask user for their name
+name = input("What's your name? ")
+#function "hello"
+hello(name)
