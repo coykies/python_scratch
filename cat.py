@@ -1,6 +1,2 @@
-i = 0 
-#while i < 3 print meow
-while i < 3:
+for i in [0, 1, 2]:
     print("meow")
-#count i + 1
-    i += 1
