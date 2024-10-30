@@ -1,8 +1,16 @@
-x = int(input("What's x? "))
+#main func than print even or odd
+def main():
+    x = int(input("What's x? "))
+    if is_even(x):
+        print("Even")
+    else:
+        print("Odd")
+#func that check n / 2 = 0
+def is_even(n):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
 
-#digit / 2 = 0
-if x % 2 == 0:
-    print("Even")
-#digit / 2 != 0
-else: 
-    print("Odd")
+
+main()
