@@ -5,9 +5,9 @@ def main():
         print("Even")
     else:
         print("Odd")
-#func that check n / 2 = 0
+#func that check n / 2 = 0 (optimazed smart)
 def is_even(n):
-    return True if n % 2 == 0 else False
+    return n % 2 == 0
 
 
 main()
