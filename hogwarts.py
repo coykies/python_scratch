@@ -6,5 +6,5 @@ students = {
 }
 
 for student in students: 
-    print(student)
+    print(student, students[student], sep=", ")
 
