@@ -4,6 +4,8 @@ def main ():
     print("x squared is", square(x))
 #func square 
 def square(n):
-    return n ** 2
+    return n * n
 #output func main
-main()
+
+if __name__ == "__main__":
+    main()
