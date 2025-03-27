@@ -1,10 +1,9 @@
-#definit func hello (add default world)
+def main():
+    name = input("What's your name? ")
+    hello(name)
+
 def hello(to="world"):
     print("hello,", to)
 
-#func with default var
-hello()
-#Ask user for their name
-name = input("What's your name? ")
-#function "hello"
-hello(name)
+if __name__ == "__main__": 
+    main()
