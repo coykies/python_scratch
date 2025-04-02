@@ -3,7 +3,7 @@ students = []
 with open("students.csv") as file:
     for line in file: 
         name, house = line.rstrip().split(",")
-        students = {"name": name, "house": house}
+        student = {"name": name, "house": house}
         students.append(student)
 
 def get_name(student):
